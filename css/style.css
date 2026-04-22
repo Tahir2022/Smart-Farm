@@ -1,0 +1,38 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  text-transform: capitalize;
+  text-decoration: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root
+{
+  --green:#008000;
+}
+
+*::selection
+{
+  background: var(--green);
+  color: #fff;
+}
+
+html
+{
+font-size: 62.5%;
+overflow-x: hidden;
+}
+
+
+body
+{
+    background: #333;
+}
+
+header
+{
+    width: 96%;
+    background: #fff;
+}
